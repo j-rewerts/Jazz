@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9A5E2C11FCDF8940064F65F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2C01FCDF8940064F65F /* AppDelegate.swift */; };
+		A9A5E2C31FCDF8940064F65F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2C21FCDF8940064F65F /* ViewController.swift */; };
+		A9A5E2C61FCDF8940064F65F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A5E2C41FCDF8940064F65F /* Main.storyboard */; };
+		A9A5E2C81FCDF8940064F65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A5E2C71FCDF8940064F65F /* Assets.xcassets */; };
+		A9A5E2CB1FCDF8940064F65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A5E2C91FCDF8940064F65F /* LaunchScreen.storyboard */; };
+		A9A5E2D61FCDF8950064F65F /* vip_chat_native_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2D51FCDF8950064F65F /* vip_chat_native_iosTests.swift */; };
+		A9A5E2E11FCDF8950064F65F /* vip_chat_native_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9A5E2D21FCDF8950064F65F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9A5E2B51FCDF8940064F65F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A5E2BC1FCDF8940064F65F;
+			remoteInfo = "vip-chat-native-ios";
+		};
+		A9A5E2DD1FCDF8950064F65F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9A5E2B51FCDF8940064F65F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A5E2BC1FCDF8940064F65F;
+			remoteInfo = "vip-chat-native-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9A5E2BD1FCDF8940064F65F /* vip-chat-native-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vip-chat-native-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A5E2C01FCDF8940064F65F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9A5E2C21FCDF8940064F65F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9A5E2C51FCDF8940064F65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9A5E2C71FCDF8940064F65F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9A5E2CA1FCDF8940064F65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9A5E2CC1FCDF8940064F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A5E2D11FCDF8950064F65F /* vip-chat-native-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vip-chat-native-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A5E2D51FCDF8950064F65F /* vip_chat_native_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vip_chat_native_iosTests.swift; sourceTree = "<group>"; };
+		A9A5E2D71FCDF8950064F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A5E2DC1FCDF8950064F65F /* vip-chat-native-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vip-chat-native-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vip_chat_native_iosUITests.swift; sourceTree = "<group>"; };
+		A9A5E2E21FCDF8950064F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9A5E2BA1FCDF8940064F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A5E2CE1FCDF8950064F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A5E2D91FCDF8950064F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9A5E2B41FCDF8940064F65F = {
+			isa = PBXGroup;
+			children = (
+				A9A5E2BF1FCDF8940064F65F /* vip-chat-native-ios */,
+				A9A5E2D41FCDF8950064F65F /* vip-chat-native-iosTests */,
+				A9A5E2DF1FCDF8950064F65F /* vip-chat-native-iosUITests */,
+				A9A5E2BE1FCDF8940064F65F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9A5E2BE1FCDF8940064F65F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9A5E2BD1FCDF8940064F65F /* vip-chat-native-ios.app */,
+				A9A5E2D11FCDF8950064F65F /* vip-chat-native-iosTests.xctest */,
+				A9A5E2DC1FCDF8950064F65F /* vip-chat-native-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9A5E2BF1FCDF8940064F65F /* vip-chat-native-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A9A5E2C01FCDF8940064F65F /* AppDelegate.swift */,
+				A9A5E2C21FCDF8940064F65F /* ViewController.swift */,
+				A9A5E2C41FCDF8940064F65F /* Main.storyboard */,
+				A9A5E2C71FCDF8940064F65F /* Assets.xcassets */,
+				A9A5E2C91FCDF8940064F65F /* LaunchScreen.storyboard */,
+				A9A5E2CC1FCDF8940064F65F /* Info.plist */,
+			);
+			path = "vip-chat-native-ios";
+			sourceTree = "<group>";
+		};
+		A9A5E2D41FCDF8950064F65F /* vip-chat-native-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9A5E2D51FCDF8950064F65F /* vip_chat_native_iosTests.swift */,
+				A9A5E2D71FCDF8950064F65F /* Info.plist */,
+			);
+			path = "vip-chat-native-iosTests";
+			sourceTree = "<group>";
+		};
+		A9A5E2DF1FCDF8950064F65F /* vip-chat-native-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */,
+				A9A5E2E21FCDF8950064F65F /* Info.plist */,
+			);
+			path = "vip-chat-native-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A5E2BC1FCDF8940064F65F /* vip-chat-native-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A5E2E51FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-ios" */;
+			buildPhases = (
+				A9A5E2B91FCDF8940064F65F /* Sources */,
+				A9A5E2BA1FCDF8940064F65F /* Frameworks */,
+				A9A5E2BB1FCDF8940064F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vip-chat-native-ios";
+			productName = "vip-chat-native-ios";
+			productReference = A9A5E2BD1FCDF8940064F65F /* vip-chat-native-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9A5E2D01FCDF8950064F65F /* vip-chat-native-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A5E2E81FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-iosTests" */;
+			buildPhases = (
+				A9A5E2CD1FCDF8950064F65F /* Sources */,
+				A9A5E2CE1FCDF8950064F65F /* Frameworks */,
+				A9A5E2CF1FCDF8950064F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A5E2D31FCDF8950064F65F /* PBXTargetDependency */,
+			);
+			name = "vip-chat-native-iosTests";
+			productName = "vip-chat-native-iosTests";
+			productReference = A9A5E2D11FCDF8950064F65F /* vip-chat-native-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9A5E2DB1FCDF8950064F65F /* vip-chat-native-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A5E2EB1FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-iosUITests" */;
+			buildPhases = (
+				A9A5E2D81FCDF8950064F65F /* Sources */,
+				A9A5E2D91FCDF8950064F65F /* Frameworks */,
+				A9A5E2DA1FCDF8950064F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A5E2DE1FCDF8950064F65F /* PBXTargetDependency */,
+			);
+			name = "vip-chat-native-iosUITests";
+			productName = "vip-chat-native-iosUITests";
+			productReference = A9A5E2DC1FCDF8950064F65F /* vip-chat-native-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9A5E2B51FCDF8940064F65F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "City of Edmonton";
+				TargetAttributes = {
+					A9A5E2BC1FCDF8940064F65F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A9A5E2D01FCDF8950064F65F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9A5E2BC1FCDF8940064F65F;
+					};
+					A9A5E2DB1FCDF8950064F65F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9A5E2BC1FCDF8940064F65F;
+					};
+				};
+			};
+			buildConfigurationList = A9A5E2B81FCDF8940064F65F /* Build configuration list for PBXProject "vip-chat-native-ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9A5E2B41FCDF8940064F65F;
+			productRefGroup = A9A5E2BE1FCDF8940064F65F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A5E2BC1FCDF8940064F65F /* vip-chat-native-ios */,
+				A9A5E2D01FCDF8950064F65F /* vip-chat-native-iosTests */,
+				A9A5E2DB1FCDF8950064F65F /* vip-chat-native-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9A5E2BB1FCDF8940064F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A5E2CB1FCDF8940064F65F /* LaunchScreen.storyboard in Resources */,
+				A9A5E2C81FCDF8940064F65F /* Assets.xcassets in Resources */,
+				A9A5E2C61FCDF8940064F65F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A5E2CF1FCDF8950064F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A5E2DA1FCDF8950064F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9A5E2B91FCDF8940064F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A5E2C31FCDF8940064F65F /* ViewController.swift in Sources */,
+				A9A5E2C11FCDF8940064F65F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A5E2CD1FCDF8950064F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A5E2D61FCDF8950064F65F /* vip_chat_native_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A5E2D81FCDF8950064F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A5E2E11FCDF8950064F65F /* vip_chat_native_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9A5E2D31FCDF8950064F65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A5E2BC1FCDF8940064F65F /* vip-chat-native-ios */;
+			targetProxy = A9A5E2D21FCDF8950064F65F /* PBXContainerItemProxy */;
+		};
+		A9A5E2DE1FCDF8950064F65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A5E2BC1FCDF8940064F65F /* vip-chat-native-ios */;
+			targetProxy = A9A5E2DD1FCDF8950064F65F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9A5E2C41FCDF8940064F65F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A5E2C51FCDF8940064F65F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9A5E2C91FCDF8940064F65F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A5E2CA1FCDF8940064F65F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9A5E2E31FCDF8950064F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9A5E2E41FCDF8950064F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9A5E2E61FCDF8950064F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA84H7P534;
+				INFOPLIST_FILE = "vip-chat-native-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9A5E2E71FCDF8950064F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA84H7P534;
+				INFOPLIST_FILE = "vip-chat-native-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9A5E2E91FCDF8950064F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vip-chat-native-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vip-chat-native-ios.app/vip-chat-native-ios";
+			};
+			name = Debug;
+		};
+		A9A5E2EA1FCDF8950064F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vip-chat-native-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vip-chat-native-ios.app/vip-chat-native-ios";
+			};
+			name = Release;
+		};
+		A9A5E2EC1FCDF8950064F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vip-chat-native-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vip-chat-native-ios";
+			};
+			name = Debug;
+		};
+		A9A5E2ED1FCDF8950064F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vip-chat-native-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vip-chat-native-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9A5E2B81FCDF8940064F65F /* Build configuration list for PBXProject "vip-chat-native-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A5E2E31FCDF8950064F65F /* Debug */,
+				A9A5E2E41FCDF8950064F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A5E2E51FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A5E2E61FCDF8950064F65F /* Debug */,
+				A9A5E2E71FCDF8950064F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A5E2E81FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A5E2E91FCDF8950064F65F /* Debug */,
+				A9A5E2EA1FCDF8950064F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A5E2EB1FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A5E2EC1FCDF8950064F65F /* Debug */,
+				A9A5E2ED1FCDF8950064F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9A5E2B51FCDF8940064F65F /* Project object */;
+}
