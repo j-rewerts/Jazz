@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83E482CB384119AEE59BF3FE /* Pods_vip_chat_native_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461B21735C9968DEC9B5A824 /* Pods_vip_chat_native_iosUITests.framework */; };
 		A9A5E2C11FCDF8940064F65F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2C01FCDF8940064F65F /* AppDelegate.swift */; };
 		A9A5E2C31FCDF8940064F65F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2C21FCDF8940064F65F /* ViewController.swift */; };
 		A9A5E2C61FCDF8940064F65F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A5E2C41FCDF8940064F65F /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		A9A5E2CB1FCDF8940064F65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A5E2C91FCDF8940064F65F /* LaunchScreen.storyboard */; };
 		A9A5E2D61FCDF8950064F65F /* vip_chat_native_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2D51FCDF8950064F65F /* vip_chat_native_iosTests.swift */; };
 		A9A5E2E11FCDF8950064F65F /* vip_chat_native_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */; };
+		B9FFA6600E23E84A44431BFC /* Pods_vip_chat_native_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497B73C2F8AEE09BB081DEE6 /* Pods_vip_chat_native_ios.framework */; };
+		F2AB2A8FA15BFEC1F59AB0D4 /* Pods_vip_chat_native_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876BAD7094FA021DD11862C3 /* Pods_vip_chat_native_iosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461B21735C9968DEC9B5A824 /* Pods_vip_chat_native_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vip_chat_native_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B73C2F8AEE09BB081DEE6 /* Pods_vip_chat_native_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vip_chat_native_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		508A69BF2F5B7B4CA40BE9E0 /* Pods-vip-chat-native-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-iosTests/Pods-vip-chat-native-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		752006BC78F05566775EC8FF /* Pods-vip-chat-native-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-iosUITests/Pods-vip-chat-native-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		876BAD7094FA021DD11862C3 /* Pods_vip_chat_native_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vip_chat_native_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92287E692BDF32D664001BC0 /* Pods-vip-chat-native-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-iosTests/Pods-vip-chat-native-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9A5E2BD1FCDF8940064F65F /* vip-chat-native-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vip-chat-native-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A5E2C01FCDF8940064F65F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A5E2C21FCDF8940064F65F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		A9A5E2DC1FCDF8950064F65F /* vip-chat-native-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vip-chat-native-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vip_chat_native_iosUITests.swift; sourceTree = "<group>"; };
 		A9A5E2E21FCDF8950064F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF5EA4670DD9A4E1A8B15D6 /* Pods-vip-chat-native-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-iosUITests/Pods-vip-chat-native-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC81B920980751A181E99111 /* Pods-vip-chat-native-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA91D5CFB5EF35248FB845D /* Pods-vip-chat-native-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FFA6600E23E84A44431BFC /* Pods_vip_chat_native_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AB2A8FA15BFEC1F59AB0D4 /* Pods_vip_chat_native_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E482CB384119AEE59BF3FE /* Pods_vip_chat_native_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2618B793437B3B851231B62A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC81B920980751A181E99111 /* Pods-vip-chat-native-ios.debug.xcconfig */,
+				CCA91D5CFB5EF35248FB845D /* Pods-vip-chat-native-ios.release.xcconfig */,
+				92287E692BDF32D664001BC0 /* Pods-vip-chat-native-iosTests.debug.xcconfig */,
+				508A69BF2F5B7B4CA40BE9E0 /* Pods-vip-chat-native-iosTests.release.xcconfig */,
+				AAF5EA4670DD9A4E1A8B15D6 /* Pods-vip-chat-native-iosUITests.debug.xcconfig */,
+				752006BC78F05566775EC8FF /* Pods-vip-chat-native-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9A5E2B41FCDF8940064F65F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				A9A5E2D41FCDF8950064F65F /* vip-chat-native-iosTests */,
 				A9A5E2DF1FCDF8950064F65F /* vip-chat-native-iosUITests */,
 				A9A5E2BE1FCDF8940064F65F /* Products */,
+				2618B793437B3B851231B62A /* Pods */,
+				E51CABD46104D4DFFF3D8EE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "vip-chat-native-iosUITests";
 			sourceTree = "<group>";
 		};
+		E51CABD46104D4DFFF3D8EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497B73C2F8AEE09BB081DEE6 /* Pods_vip_chat_native_ios.framework */,
+				876BAD7094FA021DD11862C3 /* Pods_vip_chat_native_iosTests.framework */,
+				461B21735C9968DEC9B5A824 /* Pods_vip_chat_native_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A5E2E51FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-ios" */;
 			buildPhases = (
+				0ACE8F3205D4576176D78712 /* [CP] Check Pods Manifest.lock */,
 				A9A5E2B91FCDF8940064F65F /* Sources */,
 				A9A5E2BA1FCDF8940064F65F /* Frameworks */,
 				A9A5E2BB1FCDF8940064F65F /* Resources */,
+				682FD59CD1B01CC6E86FA077 /* [CP] Embed Pods Frameworks */,
+				860DB9086745641DE5BABC66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A5E2E81FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-iosTests" */;
 			buildPhases = (
+				1BED9B0CE6951DF25CFB2F3E /* [CP] Check Pods Manifest.lock */,
 				A9A5E2CD1FCDF8950064F65F /* Sources */,
 				A9A5E2CE1FCDF8950064F65F /* Frameworks */,
 				A9A5E2CF1FCDF8950064F65F /* Resources */,
+				1F586E674FC28A45776132B2 /* [CP] Embed Pods Frameworks */,
+				3194BC824685C362951297E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A5E2EB1FCDF8950064F65F /* Build configuration list for PBXNativeTarget "vip-chat-native-iosUITests" */;
 			buildPhases = (
+				EBF4D7F8B0BD5CD66516F99D /* [CP] Check Pods Manifest.lock */,
 				A9A5E2D81FCDF8950064F65F /* Sources */,
 				A9A5E2D91FCDF8950064F65F /* Frameworks */,
 				A9A5E2DA1FCDF8950064F65F /* Resources */,
+				05390B98DE3A7BEF8ACBB61F /* [CP] Embed Pods Frameworks */,
+				9B2ECC8D1D4399FB979EE4B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05390B98DE3A7BEF8ACBB61F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-iosUITests/Pods-vip-chat-native-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ACE8F3205D4576176D78712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vip-chat-native-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BED9B0CE6951DF25CFB2F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vip-chat-native-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F586E674FC28A45776132B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-iosTests/Pods-vip-chat-native-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3194BC824685C362951297E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-iosTests/Pods-vip-chat-native-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682FD59CD1B01CC6E86FA077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LiveChat/LiveChat.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiveChat.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860DB9086745641DE5BABC66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2ECC8D1D4399FB979EE4B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vip-chat-native-iosUITests/Pods-vip-chat-native-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF4D7F8B0BD5CD66516F99D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vip-chat-native-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9A5E2B91FCDF8940064F65F /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		A9A5E2E61FCDF8950064F65F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC81B920980751A181E99111 /* Pods-vip-chat-native-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +639,7 @@
 		};
 		A9A5E2E71FCDF8950064F65F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA91D5CFB5EF35248FB845D /* Pods-vip-chat-native-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +655,7 @@
 		};
 		A9A5E2E91FCDF8950064F65F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92287E692BDF32D664001BC0 /* Pods-vip-chat-native-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +672,7 @@
 		};
 		A9A5E2EA1FCDF8950064F65F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508A69BF2F5B7B4CA40BE9E0 /* Pods-vip-chat-native-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +689,7 @@
 		};
 		A9A5E2EC1FCDF8950064F65F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF5EA4670DD9A4E1A8B15D6 /* Pods-vip-chat-native-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +705,7 @@
 		};
 		A9A5E2ED1FCDF8950064F65F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752006BC78F05566775EC8FF /* Pods-vip-chat-native-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
