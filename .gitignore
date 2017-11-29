@@ -2,3 +2,4 @@ Pods
 .DS_STORE
 vip-chat-native-ios/vip-chat-native-ios.xcworkspace/xcuserdata/jarrew.xcuserdatad/UserInterfaceState.xcuserstate
 vip-chat-native-ios/vip-chat-native-ios.xcworkspace
+vip-chat-native-ios/vip-chat-native-ios/GoogleService-Info.plist
