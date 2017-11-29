@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LiveChatDelegate, GIDSign
         LiveChat.email = "example@livechatinc.com"
         
         // Setting some custom variables:
-        LiveChat.setVariable(withKey:"First variable name", value:"Some value")
-        LiveChat.setVariable(withKey:"Second name", value:"Other value")
+        LiveChat.setVariable(withKey:"Device", value: UIDevice.current.model)
+        LiveChat.setVariable(withKey:"OS", value: UIDevice.current.systemName + " " + UIDevice.current.systemVersion)
         
         LiveChat.delegate = self
         
