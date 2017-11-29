@@ -9,18 +9,15 @@
 import UIKit
 import LiveChat
 import MapKit
+import GoogleSignIn
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GIDSignInUIDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "jazz"
-        LiveChat.presentChat()
-    }
-    
-    @IBAction func openChat(_ sender: Any) {
-        LiveChat.presentChat()
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().signIn()
     }
 }
 
