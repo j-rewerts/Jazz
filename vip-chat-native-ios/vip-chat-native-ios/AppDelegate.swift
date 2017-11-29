@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import LiveChat
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, LiveChatDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        LiveChat.licenseId = "9242305" // Set your licence number here
+        LiveChat.groupId = "2" // Optionally, you can set specific group
+        LiveChat.name = "iOS Widget Example" // User name and email can be provided if known
+        LiveChat.email = "example@livechatinc.com"
+        
+        // Setting some custom variables:
+        LiveChat.setVariable(withKey:"First variable name", value:"Some value")
+        LiveChat.setVariable(withKey:"Second name", value:"Other value")
+        
+        LiveChat.delegate = self
+        
         return true
     }
 
