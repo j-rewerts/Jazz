@@ -6,7 +6,7 @@ target 'vip-chat-native-ios' do
   use_frameworks!
 
   # Pods for vip-chat-native-ios
-  pod 'LiveChat', '~> 2.0'
+  pod 'LiveChat', '~> 2.0.6'
 
   target 'vip-chat-native-iosTests' do
     inherit! :search_paths
