@@ -3,3 +3,12 @@ Pods
 vip-chat-native-ios/vip-chat-native-ios.xcworkspace/xcuserdata/jarrew.xcuserdatad/UserInterfaceState.xcuserstate
 vip-chat-native-ios/vip-chat-native-ios.xcworkspace
 vip-chat-native-ios/vip-chat-native-ios/GoogleService-Info.plist
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
