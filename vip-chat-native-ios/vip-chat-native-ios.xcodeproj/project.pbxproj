@@ -15,6 +15,7 @@
 		A9A5E2CB1FCDF8940064F65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A5E2C91FCDF8940064F65F /* LaunchScreen.storyboard */; };
 		A9A5E2D61FCDF8950064F65F /* vip_chat_native_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2D51FCDF8950064F65F /* vip_chat_native_iosTests.swift */; };
 		A9A5E2E11FCDF8950064F65F /* vip_chat_native_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */; };
+		A9DFAA7E1FCF1BB000FAF3CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9DFAA7D1FCF1BAF00FAF3CE /* GoogleService-Info.plist */; };
 		B9FFA6600E23E84A44431BFC /* Pods_vip_chat_native_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497B73C2F8AEE09BB081DEE6 /* Pods_vip_chat_native_ios.framework */; };
 		F2AB2A8FA15BFEC1F59AB0D4 /* Pods_vip_chat_native_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876BAD7094FA021DD11862C3 /* Pods_vip_chat_native_iosTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,8 @@
 		A9A5E2DC1FCDF8950064F65F /* vip-chat-native-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vip-chat-native-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A5E2E01FCDF8950064F65F /* vip_chat_native_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vip_chat_native_iosUITests.swift; sourceTree = "<group>"; };
 		A9A5E2E21FCDF8950064F65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DFAA7D1FCF1BAF00FAF3CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9DFAA851FCF549200FAF3CE /* vip-chat-native-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vip-chat-native-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		AAF5EA4670DD9A4E1A8B15D6 /* Pods-vip-chat-native-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-iosUITests/Pods-vip-chat-native-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC81B920980751A181E99111 /* Pods-vip-chat-native-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		CCA91D5CFB5EF35248FB845D /* Pods-vip-chat-native-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vip-chat-native-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-vip-chat-native-ios/Pods-vip-chat-native-ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +108,7 @@
 		A9A5E2B41FCDF8940064F65F = {
 			isa = PBXGroup;
 			children = (
+				A9DFAA851FCF549200FAF3CE /* vip-chat-native-ios-Bridging-Header.h */,
 				A9A5E2BF1FCDF8940064F65F /* vip-chat-native-ios */,
 				A9A5E2D41FCDF8950064F65F /* vip-chat-native-iosTests */,
 				A9A5E2DF1FCDF8950064F65F /* vip-chat-native-iosUITests */,
@@ -133,6 +137,7 @@
 				A9A5E2C71FCDF8940064F65F /* Assets.xcassets */,
 				A9A5E2C91FCDF8940064F65F /* LaunchScreen.storyboard */,
 				A9A5E2CC1FCDF8940064F65F /* Info.plist */,
+				A9DFAA7D1FCF1BAF00FAF3CE /* GoogleService-Info.plist */,
 			);
 			path = "vip-chat-native-ios";
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				TargetAttributes = {
 					A9A5E2BC1FCDF8940064F65F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					A9A5E2D01FCDF8950064F65F = {
@@ -282,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A5E2CB1FCDF8940064F65F /* LaunchScreen.storyboard in Resources */,
+				A9DFAA7E1FCF1BB000FAF3CE /* GoogleService-Info.plist in Resources */,
 				A9A5E2C81FCDF8940064F65F /* Assets.xcassets in Resources */,
 				A9A5E2C61FCDF8940064F65F /* Main.storyboard in Resources */,
 			);
@@ -635,6 +642,7 @@
 			baseConfigurationReference = CC81B920980751A181E99111 /* Pods-vip-chat-native-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UA84H7P534;
 				INFOPLIST_FILE = "vip-chat-native-ios/Info.plist";
@@ -642,6 +650,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vip-chat-native-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -652,6 +662,7 @@
 			baseConfigurationReference = CCA91D5CFB5EF35248FB845D /* Pods-vip-chat-native-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UA84H7P534;
 				INFOPLIST_FILE = "vip-chat-native-ios/Info.plist";
@@ -659,6 +670,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edmonton.ca.vip-chat-native-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vip-chat-native-ios-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
