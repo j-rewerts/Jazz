@@ -6,7 +6,7 @@ target 'vip-chat-native-ios' do
   use_frameworks!
 
   # Pods for vip-chat-native-ios
-  pod 'LiveChat', '~> 2.0.6'
+  pod 'LiveChat', '~> 2.0.7'
   pod 'GoogleSignIn'
 
   target 'vip-chat-native-iosTests' do
