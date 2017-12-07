@@ -1,8 +1,6 @@
 Pods
 .DS_STORE
-vip-chat-native-ios/vip-chat-native-ios.xcworkspace/xcuserdata/jarrew.xcuserdatad/UserInterfaceState.xcuserstate
-vip-chat-native-ios/vip-chat-native-ios.xcworkspace
-vip-chat-native-ios/vip-chat-native-ios/GoogleService-Info.plist
+Jazz.xcworkspace
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -11,4 +9,3 @@ vip-chat-native-ios/vip-chat-native-ios/GoogleService-Info.plist
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/

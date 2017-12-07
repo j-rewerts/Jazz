@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  vip-chat-native-ios
+//  jazz
 //
 //  Created by Jared Rewerts on 11/28/17.
 //  Copyright © 2017 City of Edmonton. All rights reserved.
