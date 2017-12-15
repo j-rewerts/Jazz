@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LiveChatDelegate, GIDSign
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        LiveChat.licenseId = "9242305"
-        LiveChat.groupId = "2"
+        LiveChat.licenseId = Config.license
+        LiveChat.groupId = Config.group
         LiveChat.name = "Unknown iOS User"
         LiveChat.email = "example@livechatinc.com"
         
@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LiveChatDelegate, GIDSign
         
         LiveChat.delegate = self
         
-        GIDSignIn.sharedInstance().clientID = "530083994436-l891bqrglceg5q7agp4bj8g9vqofcjjc.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = "1005492944288-br1plbs5ssruri91adinp5v4p60kqcgi.apps.googleusercontent.com"
         GIDSignIn.sharedInstance().delegate = self
         
         return true

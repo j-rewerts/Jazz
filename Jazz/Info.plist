@@ -25,7 +25,7 @@
 			<string>REVERSED_CLIENT_ID</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.530083994436-l891bqrglceg5q7agp4bj8g9vqofcjjc</string>
+				<string>com.googleusercontent.apps.1005492944288-br1plbs5ssruri91adinp5v4p60kqcgi</string>
 			</array>
 		</dict>
 		<dict>
@@ -35,7 +35,7 @@
 			<string>BUNDLE_ID</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>ca.edmonton.jazz</string>
+				<string>ca.edmonton.Jazz</string>
 			</array>
 		</dict>
 	</array>

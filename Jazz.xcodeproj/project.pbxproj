@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9901EC71FD8C29F00671078 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9901EC61FD8C29F00671078 /* GoogleService-Info.plist */; };
+		A94758851FDEE2EA00D1D95D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A94758841FDEE2EA00D1D95D /* GoogleService-Info.plist */; };
+		A94758871FE42F7F00D1D95D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94758861FE42F7F00D1D95D /* Config.swift */; };
 		A9A8AB5C1FD8B64200109CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8AB5B1FD8B64200109CAE /* AppDelegate.swift */; };
 		A9A8AB5E1FD8B64200109CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8AB5D1FD8B64200109CAE /* ViewController.swift */; };
 		A9A8AB611FD8B64200109CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8AB5F1FD8B64200109CAE /* Main.storyboard */; };
@@ -19,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		65883CBE95044B7329A42E39 /* Pods_Jazz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jazz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9901EC61FD8C29F00671078 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A94758841FDEE2EA00D1D95D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A94758861FE42F7F00D1D95D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A9A8AB581FD8B64200109CAE /* Jazz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jazz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A8AB5B1FD8B64200109CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A8AB5D1FD8B64200109CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		A9A8AB621FD8B64200109CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A8AB651FD8B64200109CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A8AB671FD8B64200109CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9A8AB6D1FD8BE9600109CAE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A9A8AB6D1FD8BE9600109CAE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECCE0506441838EE27562E63 /* Pods-Jazz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jazz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jazz/Pods-Jazz.release.xcconfig"; sourceTree = "<group>"; };
 		F010198AF994AD989DE64671 /* Pods-Jazz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jazz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jazz/Pods-Jazz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 		A9A8AB4F1FD8B64200109CAE = {
 			isa = PBXGroup;
 			children = (
+				A94758841FDEE2EA00D1D95D /* GoogleService-Info.plist */,
 				A9A8AB6D1FD8BE9600109CAE /* Podfile */,
 				A9A8AB5A1FD8B64200109CAE /* Jazz */,
 				A9A8AB591FD8B64200109CAE /* Products */,
@@ -83,13 +86,13 @@
 		A9A8AB5A1FD8B64200109CAE /* Jazz */ = {
 			isa = PBXGroup;
 			children = (
-				A9901EC61FD8C29F00671078 /* GoogleService-Info.plist */,
 				A9A8AB5B1FD8B64200109CAE /* AppDelegate.swift */,
 				A9A8AB5D1FD8B64200109CAE /* ViewController.swift */,
 				A9A8AB5F1FD8B64200109CAE /* Main.storyboard */,
 				A9A8AB621FD8B64200109CAE /* Assets.xcassets */,
 				A9A8AB641FD8B64200109CAE /* LaunchScreen.storyboard */,
 				A9A8AB671FD8B64200109CAE /* Info.plist */,
+				A94758861FE42F7F00D1D95D /* Config.swift */,
 			);
 			path = Jazz;
 			sourceTree = "<group>";
@@ -158,7 +161,7 @@
 			files = (
 				A9A8AB661FD8B64200109CAE /* LaunchScreen.storyboard in Resources */,
 				A9A8AB631FD8B64200109CAE /* Assets.xcassets in Resources */,
-				A9901EC71FD8C29F00671078 /* GoogleService-Info.plist in Resources */,
+				A94758851FDEE2EA00D1D95D /* GoogleService-Info.plist in Resources */,
 				A9A8AB6E1FD8BE9600109CAE /* Podfile in Resources */,
 				A9A8AB611FD8B64200109CAE /* Main.storyboard in Resources */,
 			);
@@ -236,6 +239,7 @@
 			files = (
 				A9A8AB5E1FD8B64200109CAE /* ViewController.swift in Sources */,
 				A9A8AB5C1FD8B64200109CAE /* AppDelegate.swift in Sources */,
+				A94758871FE42F7F00D1D95D /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
