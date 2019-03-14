@@ -13,3 +13,6 @@ Each platform allows it's users to connect with a support agent instantly, with 
 * #### [Android](https://github.com/CityofEdmonton/Jazz/tree/master/android/README.md)
 * #### [Chrome](https://github.com/CityofEdmonton/Jazz/tree/master/chrome/README.md)
 * #### [iOS](https://github.com/CityofEdmonton/Jazz/tree/master/ios/README.md)
+
+## Contributing
+Contributions are welcome! Please look inside the `chrome`, `ios` or `android` subfolders to get more information on setting those platforms up.
