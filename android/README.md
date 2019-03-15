@@ -9,7 +9,16 @@ This gives you access to Google authentication. It was created using [this](http
 
 3. Add in the Config.java file.
 
-This exposes our app config to the application.
+To get the livechat service working, you need a Java file "Config.java" that defines a "Config" object, with properties license and group. This Config.java file is located with the other Java files.
+
+For example: 
+```java
+public class Config {
+    public static final String group = "GROUP";
+    public static final String license = "LICENSE";
+}
+```
+Add it to `app/src/main/java/ca/edmonton/jazz`. This exposes our app config to the application.
 
 4. Generate a debug keystore
 Generate the debug keystore by running
@@ -38,17 +47,6 @@ storeFile=./debug.keystore
 Note this assumes your keystore is also in the same folder.
 
 6. Run the app on a device with Android API 16+.
-
-### Config.java
-To get the livechat service working, you need a Java file "Config.java" that defines a "Config" object, with properties license and group. This Config.java file is located with the other Java files.
-
-For example: 
-```java
-public class Config {
-    public static final String group = "GROUP";
-    public static final String license = "LICENSE";
-}
-```
 
 ### CSS
 LiveChat allows you to modify the look and feel of any given group/deployment by editing CSS in the LiveChat console. This is the preferred approach, as we can control it without deploying new versions.
