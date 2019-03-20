@@ -4,7 +4,7 @@
   "description": "Provides authenticated chat services for City of Edmonton staff.",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/CityofEdmonton/Jazz#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
