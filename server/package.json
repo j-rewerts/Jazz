@@ -1,0 +1,27 @@
+{
+  "name": "jazz-server",
+  "version": "1.0.0",
+  "description": "Provides authenticated chat services for City of Edmonton staff.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityofEdmonton/Jazz.git"
+  },
+  "keywords": [
+    "LiveChat",
+    "Node.js"
+  ],
+  "author": "j-rewerts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CityofEdmonton/Jazz/issues"
+  },
+  "homepage": "https://github.com/CityofEdmonton/Jazz#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
